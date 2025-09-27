@@ -1,0 +1,73 @@
+.footer {
+  background: #f2f2f2;
+  padding: 60px 40px 40px 40px;
+  font-family: Arial, sans-serif;
+}
+
+.subscribe {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subscribe h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.subscribe-box {
+  display: inline-flex;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.subscribe-box input {
+  padding: 12px 20px;
+  border: none;
+  width: 280px;
+  outline: none;
+}
+
+.subscribe-box button {
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 24px;
+  color: orange;
+  margin-bottom: 15px;
+}
+
+.socials a {
+  margin-right: 12px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  gap: 60px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 8px;
+}
