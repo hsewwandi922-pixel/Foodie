@@ -6,7 +6,7 @@ export default function Home() {
     <div className="home">
       {/* Navbar */}
       <nav className="navbar">
-        <div className="logo">FOODIE</div>
+        <div className="logo">FAVEDISH</div>
         <ul className="nav-links">
           <li>Home</li>
           <li>About</li>
@@ -14,7 +14,7 @@ export default function Home() {
           <li>Contact</li>
           <li className="cart">🛒</li>
           <li>
-            <button className="btn-book">Booking Now</button>
+            <button className="btn-book">Order Now</button>
           </li>
         </ul>
       </nav>
@@ -26,13 +26,14 @@ export default function Home() {
             Your Favourite Food <br /> Delivered Hot & Fresh
           </h1>
           <p>
-            Healthy switcher chefs do all the prep work, like peeling, chopping &
-            marinating, so you can cook a fresh food.
+            Imagine your favourite dish, perfectly cooked, arriving right when you want it. We handle all the details from sourcing quality ingredients to rapid, insulated delivery so all you have to do is unbox a hot, fresh, and delicious meal.
+
+
           </p>
           <button className="btn-order">Order Now →</button>
         </div>
         <div className="hero-image">
-          <img src="/Assets/f3.png" alt="Food Bowl" />
+          <img src="/public/Assests/f3.png" alt="Food Bowl" />
         </div>
       </section>
     </div>
