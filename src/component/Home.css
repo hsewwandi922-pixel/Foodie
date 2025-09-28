@@ -103,10 +103,3 @@ body {
   position: relative;
 }
 
-.hero-image img {
-  width: 500px;
-  height:500px;
-  border-radius: 50%;
-  border: 10px solid #464343;
-  
-}
