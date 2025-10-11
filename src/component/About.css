@@ -1,4 +1,11 @@
-.botomcen{
-    display: flex;
-    width: 100%;
+.botomcen {
+  display: flex;
+  flex-wrap: wrap;           /* allow items to wrap on smaller screens */
+  justify-content: center;   /* center content horizontally */
+  align-items: flex-start;   /* align items at the top */
+  width: 100%;               /* full width */
+  max-width: 1200px;         /* optional max width to avoid stretching too far */
+  margin: 0 auto;            /* center container in page */
+  gap: 2rem;                 /* space between LeftPane and RightPane */
+  padding: 2rem 1rem;        /* add some padding around */
 }
