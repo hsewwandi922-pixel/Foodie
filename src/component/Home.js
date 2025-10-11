@@ -16,7 +16,7 @@ export default function Home() {
             We handle all the details from sourcing quality ingredients to rapid, insulated delivery
             so all you have to do is unbox a hot, fresh, and delicious meal.
           </p>
-          <button className="btn-order">Order Now →</button>
+          <button className="btn-order">How it Works →</button>
         </div>
         <div className="hero-image">
           <img src={f3} alt="Food Bowl" /> {/* use imported variable */}

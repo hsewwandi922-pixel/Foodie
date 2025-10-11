@@ -1,0 +1,11 @@
+.rightpanebox{
+    background-color: white;
+    flex: 4;
+    max-width: 700px;
+
+}
+.backimage{
+    position: absolute;
+    
+    
+}
