@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css"; // CSS එක import කරලා
+import "./Contact.css"; 
 
 function Contact() {
   return (
@@ -13,7 +13,7 @@ function Contact() {
       </div>
 
       <div className="footer-links">
-        <div className="brand">FavDish</div>
+        <div className="brand"></div>
         <div className="socials">
           <a href="#"><i className="fab fa-twitter"></i></a>
           <a href="#"><i className="fab fa-linkedin"></i></a>
