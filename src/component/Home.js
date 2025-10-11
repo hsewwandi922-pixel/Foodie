@@ -4,13 +4,10 @@ import f3 from "../Assets/f3.png"; // make sure folder name is Assets
 
 export default function Home() {
   return (
-    <div className="home">
-      {/* Hero Section */}
+    <div className="page-content">
       <section className="hero">
         <div className="hero-text">
-          <h1>
-            Your Favourite Food <br /> Delivered Hot & Fresh
-          </h1>
+          <h1>Your Favourite Food <br /> Delivered Hot & Fresh</h1>
           <p>
             Imagine your favourite dish, perfectly cooked, arriving right when you want it.
             We handle all the details from sourcing quality ingredients to rapid, insulated delivery
@@ -19,7 +16,7 @@ export default function Home() {
           <button className="btn-order">How it Works →</button>
         </div>
         <div className="hero-image">
-          <img src={f3} alt="Food Bowl" /> {/* use imported variable */}
+          <img src={f3} alt="Food Bowl" />
         </div>
       </section>
     </div>

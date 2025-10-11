@@ -61,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px;
+  padding: 0 60px; /* horizontal padding only */
 }
 
 .hero-text {
@@ -101,5 +101,31 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+.hero-text .btn-order {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.page-content {
+  padding-top: 90px; /* This creates a 90px buffer equal to the navbar's height */
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
 }
 

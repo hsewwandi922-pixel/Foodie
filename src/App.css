@@ -426,3 +426,8 @@ nav {
     display: none;
   }
 }
+
+.page-content {
+  padding-top: 90px; /* matches navbar height */
+  min-height: calc(100vh - 90px);
+}

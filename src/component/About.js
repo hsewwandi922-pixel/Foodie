@@ -5,15 +5,18 @@ import './About.css';
 
 export default function About() {
   return (
-    <>
-       <div className='botomcen'>
-          <LeftPane/>
-          <RightPane/>
-       </div>
-       <div>
-         <hr />
-         <footer>favfood@gmail.com</footer>
-       </div>
-    </>
+    <div className="page-content">
+      {/* Main About content */}
+      <div className='botomcen'>
+        <LeftPane />
+        <RightPane />
+      </div>
+
+      {/* Footer */}
+      <div>
+        <hr />
+        <footer>favfood@gmail.com</footer>
+      </div>
+    </div>
   );
 }

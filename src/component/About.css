@@ -9,3 +9,21 @@
   gap: 2rem;                 /* space between LeftPane and RightPane */
   padding: 2rem 1rem;        /* add some padding around */
 }
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: #555;
+  font-weight: 500;
+}
+
+.page-content {
+  padding-top: 90px; /* This creates a 90px buffer equal to the navbar's height */
+}
+
+@media (max-width: 800px) {
+  .botomcen {
+    flex-direction: column;
+    align-items: center;
+  }
+}
