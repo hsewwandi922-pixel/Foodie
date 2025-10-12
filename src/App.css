@@ -428,6 +428,6 @@ nav {
 }
 
 .page-content {
-  padding-top: 90px; /* matches navbar height */
+  padding-top: 90px; 
   min-height: calc(100vh - 90px);
 }

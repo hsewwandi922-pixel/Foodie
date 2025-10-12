@@ -1,13 +1,13 @@
 .botomcen {
   display: flex;
-  flex-wrap: wrap;           /* allow items to wrap on smaller screens */
-  justify-content: center;   /* center content horizontally */
-  align-items: flex-start;   /* align items at the top */
-  width: 100%;               /* full width */
-  max-width: 1200px;         /* optional max width to avoid stretching too far */
-  margin: 0 auto;            /* center container in page */
-  gap: 2rem;                 /* space between LeftPane and RightPane */
-  padding: 2rem 1rem;        /* add some padding around */
+  flex-wrap: wrap;           
+  justify-content: center;   
+  align-items: flex-start;   
+  width: 100%;               
+  max-width: 1200px;         
+  margin: 0 auto;            
+  gap: 2rem;                 
+  padding: 2rem 1rem;        
 }
 
 footer {
@@ -18,7 +18,7 @@ footer {
 }
 
 .page-content {
-  padding-top: 90px; /* This creates a 90px buffer equal to the navbar's height */
+  padding-top: 90px; 
 }
 
 @media (max-width: 800px) {

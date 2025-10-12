@@ -5,6 +5,7 @@ import Home from "./component/Home";
 import About from "./component/About";
 import Contact from "./component/Contact";
 import Work from "./component/Work";
+import Ordernow from "./component/Ordernow";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/Ordernow" element={<Ordernow />} />
       </Routes>
     </Router>
   );
