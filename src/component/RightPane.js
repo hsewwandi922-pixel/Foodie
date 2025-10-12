@@ -1,6 +1,6 @@
 import React from 'react';
 import './RightPane.css';
-import image02 from '../Assets/image02.png'; // adjust path
+import image02 from '../Assets/image02.png'; 
 
 export default function RightPane() {
   return (

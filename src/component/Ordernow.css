@@ -1,4 +1,4 @@
-/* Container */
+
 .favedish-container {
   min-height: 100vh;
   background: linear-gradient(to bottom right, #fff7ed, #ffe4e6);
@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-/* Header */
+
 .favedish-header {
   background: white;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -35,7 +35,7 @@
   margin: 0;
 }
 
-/* Cart Button */
+
 .cart-btn {
   background-color: #ea580c;
   color: white;
@@ -73,7 +73,7 @@
   font-weight: bold;
 }
 
-/* Main Layout */
+
 .favedish-main {
   flex: 1;
   display: flex;
@@ -97,7 +97,7 @@
   grid-template-columns: 2fr 1fr;
 }
 
-/* Menu Section */
+
 .menu-section {
   width: 100%;
 }
@@ -186,7 +186,7 @@
   background-color: #c2410c;
 }
 
-/* Cart Section */
+
 .cart-section {
   width: 100%;
 }
@@ -292,7 +292,7 @@
   background: #dc2626;
 }
 
-/* Summary */
+
 .cart-summary {
   border-top: 2px solid #eee;
   padding-top: 1rem;
@@ -315,7 +315,7 @@
   margin-top: 0.5rem;
 }
 
-/* Checkout Button */
+
 .checkout-btn {
   width: 100%;
   background: linear-gradient(to right, #ea580c, #dc2626);
@@ -334,7 +334,7 @@
   background: linear-gradient(to right, #c2410c, #b91c1c);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
   .menu-cart-wrapper.cart-open {
     grid-template-columns: 1fr;
