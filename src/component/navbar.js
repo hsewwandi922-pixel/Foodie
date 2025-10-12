@@ -13,7 +13,7 @@ const Navbar = () => {
 
       
 
-      {/* Nav Links */}
+      {}
       <div className={`navbar-links ${isOpen ? "open" : ""}`}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

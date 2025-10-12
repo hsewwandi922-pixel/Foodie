@@ -109,7 +109,7 @@ body {
 }
 
 .page-content {
-  padding-top: 90px; /* This creates a 90px buffer equal to the navbar's height */
+  padding-top: 90px; 
 }
 
 @media (max-width: 800px) {

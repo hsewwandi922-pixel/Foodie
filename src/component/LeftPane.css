@@ -5,7 +5,6 @@
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
   max-width: 600px;
 }
 .primary-text {
@@ -18,6 +17,6 @@
 .leftpaneBox {
   background-color: white;
   flex: 3;
-  padding: 2rem; /* add some inner spacing */
-  border-radius: 1rem; /* optional, for softer look */
+  padding: 2rem; 
+  border-radius: 1rem; 
 }

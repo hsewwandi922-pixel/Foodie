@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90px; /* navbar height */
+  height: 90px; 
   padding: 0 30px;
   width: 100%;
   background-color: #ff9800;
@@ -14,14 +14,14 @@
   box-sizing: border-box;
 }
 
-/* Logo */
+
 .navbar-logo {
   font-weight: bold;
   font-size: 24px;
   color: #fff;
 }
 
-/* Navigation links */
+
 .navbar-links {
   display: flex;
   gap: 20px;
@@ -38,9 +38,9 @@
   color: #333;
 }
 
-/* Responsive: collapse links on small screens */
+
 @media (max-width: 768px) {
   .navbar-links {
-    display: none; /* hide links, you can add a menu icon later */
+    display: none; 
   }
 }
